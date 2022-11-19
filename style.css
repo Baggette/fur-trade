@@ -1,0 +1,100 @@
+html {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    animation: fadeInAnimation ease 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+  }
+div.main{
+    width: 140vh;
+    border: 4px solid white;
+    background-color: white;
+    opacity: .7;
+    padding: 25px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+div.main div.title h1{
+    margin: -10px;
+}
+div.paragraph{
+  border: 4px solid white;
+  background-color: white;
+  opacity: .75;
+  width: 170vh;
+  margin: auto;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+div.top ul{
+  width: 89vh;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 15px;
+  position: relative;
+}
+
+div.top li {
+  float: left;
+}
+div.top li:hover{
+background-color: black;
+}
+div.top li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div.paragraph div.first{
+  padding: 30px;
+  /*margin-left: 90px;*/
+  text-align: left;
+  overflow: auto;
+}
+
+div.paragraph div.first img{
+  width: 40%;
+  height: 40%;
+  float: right;
+  text-align: right;
+  margin-left: 10px;
+}
+div.paragraph div.second{
+  text-align: left;
+  padding: 30px;
+  margin-right: 90px;
+  overflow: auto;
+  margin: auto;
+}
+div.paragraph div.second img{
+  width: 40%;
+  height: 40%;
+  float: left;
+  text-align: left;
+  margin-right: 10px;
+}
