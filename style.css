@@ -110,3 +110,45 @@ div.paragraph div.third img{
   text-align: right;
   margin-left: 10px;
 }
+div.paragraph div.fourth{
+  text-align: left;
+  padding: 30px;
+  margin-right: 90px;
+  overflow: auto;
+  margin: auto;
+}
+div.paragraph div.fourth img{
+  width: 40%;
+  height: 40%;
+  float: left;
+  text-align: left;
+  margin-right: 10px;
+}
+div.paragraph div.fifth{
+  text-align: left;
+  padding: 30px;
+  margin-left: 90px;
+  overflow: auto;
+  margin: auto;
+}
+div.paragraph div.fifth img{
+  /*width: 40%;
+  height: 40%;*/
+  float: right;
+  text-align: right;
+  margin-left: 10px;
+}
+div.paragraph div.sixth{
+  text-align: left;
+  padding: 30px;
+  margin-right: 90px;
+  overflow: auto;
+  margin: auto;
+}
+div.paragraph div.sixth img{
+  width: 40%;
+  height: 40%;
+  float: left;
+  text-align: left;
+  margin-right: 10px;
+}
